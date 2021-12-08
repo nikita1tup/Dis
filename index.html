@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Тестовое задание</title>
+
+</head>
+
+<body>
+    <select class="select-css" id="way" onchange="OnSelectionChange(this.value)">
+        <option value="default" selected>Выберите сортировку</option>
+        <option value="fast">Самый быстрый маршрут</option>
+        <option value="cheap">Самый дешевый маршрут</option>
+    </select>
+    <div id="wrapper"></div>
+
+    <script src="./js/data.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/createTable.js"></script>
+</body>
+
+</html>
